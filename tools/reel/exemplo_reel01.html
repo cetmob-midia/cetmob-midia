@@ -27,68 +27,59 @@ body { font-family: R, sans-serif; color: #fff; position: relative; }
 .prog b { display: block; height: 100%; width: 0; background: #fc8b3f; }
 .quote { position: absolute; left: 90px; right: 90px; border-left: 14px solid #fc8b3f; padding-left: 44px; }
 .neq { font-size: 150px; font-weight: 800; color: #fc8b3f; }
+</style><style>
+.sens { position:absolute; left:90px; right:90px; display:flex; align-items:baseline; gap:34px; }
+.sens b { font-size:170px; font-weight:800; line-height:1; width:190px; text-align:right; }
+.sens span { font-size:58px; font-weight:700; }
+.tags { position:absolute; left:90px; right:90px; display:flex; flex-wrap:wrap; gap:22px; }
+.tags span { border:4px solid #3488c1; border-radius:60px; padding:18px 34px; font-size:44px; font-weight:600; }
 </style></head>
 <body>
 <div class="bars"><i style="background:#fc8b3f;height:200px"></i><i style="background:#3488c1;height:150px"></i><i style="background:#fc8b3f;height:95px"></i></div>
 
-<!-- S1 gancho -->
 <div class="scene" id="s1">
-  <div class="k" id="s1k">Mobilidade no mundo · Paris</div>
-  <div class="big" id="s1a" style="top:420px">O metrô está pronto.</div>
-  <div class="big o" id="s1b" style="top:800px">Por que ainda não abre?</div>
+  <div class="k" id="s1k">Tecnologia no mundo · Munique</div>
+  <div class="big" id="s1a" style="top:420px">Um ônibus de 12&nbsp;m que dirige sozinho</div>
+  <div class="big o" id="s1b" style="top:930px">já leva passageiros.</div>
 </div>
 
-<!-- S2 a linha -->
 <div class="scene" id="s2">
-  <div class="k">Linha 18 · Grand Paris Express</div>
-  <div class="mid" style="top:390px">1º trecho, ao sul de Paris</div>
-  <div class="line" id="s2line" style="height:0"></div>
-  <div class="st" id="st0" style="top:610px"><i></i><span>Massy–Palaiseau</span></div>
-  <div class="st" id="st1" style="top:800px"><i></i><span>Polytechnique</span></div>
-  <div class="st" id="st2" style="top:990px"><i></i><span>Université Paris-Saclay</span></div>
-  <div class="st" id="st3" style="top:1180px"><i></i><span>Christ de Saclay</span></div>
-  <div class="txt" id="s2t" style="top:1340px">Inclui o <b class="o">viaduto de 6,7 km</b>, o maior viaduto ferroviário da França.</div>
+  <div class="k">Desde 17/11/2026</div>
+  <div class="mid" id="s2a" style="top:390px">Linha 178 da MVG, na zona norte de Munique</div>
+  <div class="txt" id="s2t" style="top:610px">Petuelring ⇄ Freimanner Hölzl, de segunda a sexta, como <b style="color:#fff">veículo extra</b> na linha regular.</div>
+  <div class="chip" id="s2c" style="top:900px"><b style="font-size:96px;line-height:1">+2.000</b><br>pessoas se inscreveram para testar</div>
+  <div class="txt" id="s2v" style="top:1250px;font-size:40px;color:#b9b6e6">MAN Lion's City 12 E · 100% elétrico · ~30 assentos + 1 espaço para cadeira de rodas</div>
 </div>
 
-<!-- S3 automação -->
 <div class="scene" id="s3">
-  <div class="k">O nó técnico</div>
-  <div class="big" id="s3a" style="top:420px">Trens <span class="b">automáticos</span>, sem condutor</div>
-  <div class="txt" id="s3t" style="top:900px">O sistema de automação ainda precisa de ensaios para garantir operação e segurança.</div>
-  <div class="chip" id="s3c" style="top:1180px">Linha entregue à autoridade de transporte<br><b style="font-size:60px">13/10/2026</b></div>
+  <div class="k">Como ele enxerga</div>
+  <div class="sens" id="s3a" style="top:430px"><b class="o" id="n1">5</b><span>sensores LiDAR</span></div>
+  <div class="sens" id="s3b" style="top:650px"><b class="b" id="n2">6</b><span>radares</span></div>
+  <div class="sens" id="s3c" style="top:870px"><b id="n3">8</b><span>câmeras</span></div>
+  <div class="txt" id="s3t" style="top:1110px">+ posicionamento por satélite. Com isso, o ônibus esterça, acelera, freia e sinaliza sozinho.</div>
 </div>
 
-<!-- S4 marcha em branco -->
 <div class="scene" id="s4">
-  <div class="k">Etapa obrigatória</div>
-  <div class="big" id="s4a" style="top:420px">Marcha em branco</div>
-  <div class="txt" id="s4t" style="top:720px"><b style="color:#fff">2 meses</b> operando como se fosse de verdade, mas <b class="o">sem passageiros</b>, para validar todo o sistema.</div>
-  <div class="txt" id="s4l" style="top:1060px;font-size:40px;color:#b9b6e6">Progresso até 23/11</div>
-  <div class="prog" id="s4p" style="top:1130px"><b id="s4bar"></b></div>
-  <div class="mid o" id="s4n" style="top:1230px">Ainda não começou</div>
+  <div class="k">Mas atenção</div>
+  <div class="big" id="s4a" style="top:420px">Ainda há um <span class="o">motorista de segurança</span> a bordo</div>
+  <div class="txt" id="s4t" style="top:1080px">Treinado para monitorar os sistemas e assumir o controle quando for preciso, durante todos os testes com passageiros.</div>
 </div>
 
-<!-- S5 status -->
 <div class="scene" id="s5">
-  <div class="k">Situação em 23/11</div>
-  <div class="quote" id="s5q" style="top:430px">
-    <div class="mid" style="position:static">Abertura em dezembro está <span class="o">“muito comprometida”</span></div>
-    <div class="txt" style="position:static;margin-top:34px;font-size:42px">Valérie Pécresse, presidente da Île-de-France Mobilités</div>
-  </div>
-  <div class="chip" id="s5c" style="top:1080px;font-size:52px">Sem nova data oficial</div>
+  <div class="k">Teste em condições reais</div>
+  <div class="mid" id="s5a" style="top:390px">A linha mistura cenários difíceis</div>
+  <div class="tags" id="s5g" style="top:600px"><span>vias principais</span><span>zonas de 30 km/h</span><span>áreas de estacionamento</span><span>passagens subterrâneas</span></div>
+  <div class="txt" id="s5t" style="top:960px">Os passageiros respondem pesquisas sobre <b style="color:#fff">percepção de segurança</b> e <b style="color:#fff">acessibilidade</b>.</div>
+  <div class="chip" id="s5c" style="top:1200px">Projeto MINGA · testes até <b>junho/2027</b></div>
 </div>
 
-<!-- S6 lição -->
 <div class="scene" id="s6">
   <div class="k">Lição de engenharia</div>
-  <div class="mid" id="s6a" style="top:400px">Obra pronta</div>
-  <div class="neq" id="s6n" style="position:absolute;left:90px;top:470px">≠</div>
-  <div class="mid" id="s6b" style="top:660px">sistema pronto</div>
-  <div class="txt" id="s6t" style="top:820px">Segurança operacional vem antes da inauguração.</div>
-  <div class="txt" id="s6c" style="top:1060px;font-size:42px;color:#fff">No CETMob, isso é conteúdo de<br><b class="o">Introdução ao Controle e Automação</b> e<br><b class="o">Infraestrutura e Operação de Transportes 2</b>.</div>
+  <div class="mid" id="s6a" style="top:400px">Autonomia = sensores + fusão de dados + controle</div>
+  <div class="txt" id="s6t" style="top:640px">Antes de o motorista sair, o sistema precisa provar segurança no tráfego real, com gente a bordo.</div>
+  <div class="txt" id="s6c" style="top:930px;font-size:42px;color:#fff">No CETMob, isso é conteúdo de<br><b class="o">Sistemas Inteligentes de Transporte</b> e<br><b class="o">Introdução ao Controle e Automação</b>.</div>
 </div>
 
-<!-- S7 assinatura -->
 <div class="scene" id="s7">
   <img id="s7logo" src="../assets/CETMob-logo-extenso-horizontal-BRANCO.svg" style="position:absolute;left:90px;top:620px;width:900px">
   <div class="mid" id="s7h" style="top:1010px;font-size:60px">@ufpel_uergs.cetmob</div>
@@ -104,27 +95,24 @@ function show(el, t, t0, dur = .45, dy = 50) {
   el.style.opacity = p;
   el.style.transform = `translateY(${(1 - p) * dy}px)`;
 }
-function sceneFade(D, t) { // fade-out nos últimos 0,3 s
-  const out = cl((D - t) / .3);
-  document.querySelector('.scene.on').style.opacity = out;
-}
+function count(el, t, t0, n) { el.textContent = Math.max(0, Math.min(n, Math.floor(eo((t - t0) / .8) * n + .0001))); }
+function sceneFade(D, t) { document.querySelector('.scene.on').style.opacity = cl((D - t) / .3); }
 const S = {
-  s1: { D: 4.0, f(t) { show($('s1k'), t, .1); show($('s1a'), t, .35); show($('s1b'), t, 1.4); } },
-  s2: { D: 5.2, f(t) {
-      $('s2line').style.height = (eo((t - .3) / 2.2) * 610) + 'px';
-      ['st0','st1','st2','st3'].forEach((id, i) => show($(id), t, .3 + i * .6, .4, 0));
-      show($('s2t'), t, 2.9);
+  s1: { D: 4.2, f(t) { show($('s1k'), t, .1); show($('s1a'), t, .35); show($('s1b'), t, 1.6); } },
+  s2: { D: 5.4, f(t) { show($('s2a'), t, .15); show($('s2t'), t, .9); show($('s2c'), t, 2.0); show($('s2v'), t, 3.0); } },
+  s3: { D: 5.4, f(t) {
+      show($('s3a'), t, .15); count($('n1'), t, .2, 5);
+      show($('s3b'), t, .9);  count($('n2'), t, .95, 6);
+      show($('s3c'), t, 1.65); count($('n3'), t, 1.7, 8);
+      show($('s3t'), t, 2.7);
     } },
-  s3: { D: 4.6, f(t) { show($('s3a'), t, .15); show($('s3t'), t, 1.1); show($('s3c'), t, 2.2); } },
-  s4: { D: 5.2, f(t) {
-      show($('s4a'), t, .15); show($('s4t'), t, .9); show($('s4l'), t, 2.0); show($('s4p'), t, 2.0);
-      // barra "tenta" avançar e volta a zero
-      const k = cl((t - 2.4) / 1.0);
-      $('s4bar').style.width = (Math.sin(k * Math.PI) * 18) + '%';
-      show($('s4n'), t, 3.3);
+  s4: { D: 4.6, f(t) { show($('s4a'), t, .15); show($('s4t'), t, 1.5); } },
+  s5: { D: 5.4, f(t) {
+      show($('s5a'), t, .15);
+      [...$('s5g').children].forEach((c, i) => show(c, t, .7 + i * .3, .35, 30));
+      show($('s5t'), t, 2.3); show($('s5c'), t, 3.2);
     } },
-  s5: { D: 4.6, f(t) { show($('s5q'), t, .15); show($('s5c'), t, 2.0); } },
-  s6: { D: 5.4, f(t) { show($('s6a'), t, .15); show($('s6n'), t, .7, .35, 0); show($('s6b'), t, 1.1); show($('s6t'), t, 2.0); show($('s6c'), t, 3.0); } },
+  s6: { D: 5.4, f(t) { show($('s6a'), t, .15); show($('s6t'), t, 1.4); show($('s6c'), t, 2.7); } },
   s7: { D: 3.0, f(t) { show($('s7logo'), t, .1); show($('s7h'), t, .6); show($('s7t'), t, 1.0); } },
 };
 window.render = (id, t) => {

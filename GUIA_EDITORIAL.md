@@ -7,7 +7,7 @@ Perfil oficial do Curso de Engenharia de Transporte e Mobilidade (CETMob), ofere
 | Dia | Pauta | Semana ISO par | Semana ISO ímpar |
 |---|---|---|---|
 | Segunda | **Local**: Região Metropolitana de Porto Alegre (RMPA) | Carrossel | Reel |
-| Quinta | **Internacional**: grandes centros urbanos do mundo | Reel | Carrossel |
+| Quinta | **Internacional: novidade tecnológica** em mobilidade urbana nos grandes centros do mundo | Reel | Carrossel |
 
 Para saber a semana, use `date +%V` no fuso America/Sao_Paulo. Exemplo: a semana 48 de 2026 teve carrossel local e Reel internacional.
 
@@ -18,6 +18,7 @@ Para saber a semana, use `date +%V` no fuso America/Sao_Paulo. Exemplo: a semana
 - Fato **recente**, dos últimos 7 a 10 dias de preferência, ou um marco iminente: licitação, inauguração, resultado divulgado.
 - Mobilidade urbana em sentido amplo: transporte coletivo, trilhos, tarifação, segurança viária, mobilidade ativa, logística urbana, eletrificação, ITS, acessibilidade.
 - Prefira pautas que rendam uma **lição de engenharia** concreta.
+- **Pauta internacional = sempre novidade tecnológica**: veículos autônomos, sensores e ITS, IA aplicada a semáforos e operação, bilhetagem e pagamentos, eletrificação e recarga, novos materiais, automação ferroviária, dados em tempo real, gêmeos digitais, drones e logística urbana. Notícias só de obra, política tarifária ou cronograma não servem, a menos que o foco seja a tecnologia. Explique **como a tecnologia funciona** (componentes, números) e qual é o estágio dela (piloto, teste com passageiros, operação comercial).
 - Não repita assunto já publicado: consulte o `LOG.md`.
 - Evite polêmica partidária. Atribua declarações a quem as fez e não emita opinião sobre políticos.
 
