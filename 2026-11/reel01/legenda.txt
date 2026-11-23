@@ -1,0 +1,15 @@
+Um ônibus de 12 metros que dirige sozinho já leva passageiros. 🚌🤖
+
+Desde 17/11, Munique (Alemanha) testa um ônibus elétrico autônomo de tamanho padrão com passageiros a bordo. Ele roda na linha 178 da MVG, entre Petuelring e Freimanner Hölzl, de segunda a sexta, como veículo extra na linha regular. Mais de 2.000 pessoas se inscreveram para participar.
+
+Como ele "enxerga": 5 sensores LiDAR, 6 radares, 8 câmeras e posicionamento por satélite. Com isso, o MAN Lion's City 12 E esterça, acelera, freia e sinaliza sozinho. Durante os testes, um motorista de segurança treinado fica a bordo para assumir o controle se for preciso.
+
+A linha foi escolhida por misturar vias principais, zonas de 30 km/h, áreas de estacionamento e passagens subterrâneas. Os passageiros respondem pesquisas sobre percepção de segurança e acessibilidade. O projeto de pesquisa MINGA segue até junho de 2027.
+
+Lição de engenharia: autonomia é sensores + fusão de dados + controle. E, antes de o motorista sair, o sistema precisa provar segurança no tráfego real.
+
+💬 Você embarcaria num ônibus sem motorista? O que precisaria mudar nas nossas cidades para isso funcionar aqui?
+
+Fontes: SWM/MVG, comunicado de 03/11/2026; Sustainable Bus (03/11/2026); electrive (04/11/2026); ingenieur.de (04/11/2026).
+
+#MobilidadeUrbana #TecnologiaNoTransporte #ÔnibusAutônomo #VeículosAutônomos #SistemasInteligentesDeTransporte #Automação #Munique #TransportePúblico #EngenhariaDeTransporte #CETMob #UFPel #UERGS
