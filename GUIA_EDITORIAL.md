@@ -19,7 +19,7 @@ Para saber a semana, use `date +%V` no fuso America/Sao_Paulo. Exemplo: a semana
 - Mobilidade urbana em sentido amplo: transporte coletivo, trilhos, tarifação, segurança viária, mobilidade ativa, logística urbana, eletrificação, ITS, acessibilidade.
 - Prefira pautas que rendam uma **lição de engenharia** concreta.
 - **Pauta internacional = sempre novidade tecnológica**: veículos autônomos, sensores e ITS, IA aplicada a semáforos e operação, bilhetagem e pagamentos, eletrificação e recarga, novos materiais, automação ferroviária, dados em tempo real, gêmeos digitais, drones e logística urbana. Notícias só de obra, política tarifária ou cronograma não servem, a menos que o foco seja a tecnologia. Explique **como a tecnologia funciona** (componentes, números) e qual é o estágio dela (piloto, teste com passageiros, operação comercial).
-- Não repita assunto já publicado: consulte o `LOG.md`.
+- Não repita assunto já publicado: consulte o `LOG.md`. Linhas marcadas como EXTRA no LOG não contam para a regra de uma pauta por semana.
 - Evite polêmica partidária. Atribua declarações a quem as fez e não emita opinião sobre políticos.
 
 ## Apuração (obrigatório)
