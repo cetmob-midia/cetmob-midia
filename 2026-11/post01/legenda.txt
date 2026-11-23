@@ -1,0 +1,17 @@
+Pix e cartão no ônibus metropolitano? 🚌💳
+
+O Governo do RS está licitando a nova bilhetagem eletrônica dos ônibus da Região Metropolitana de Porto Alegre. É uma PPP de 10 anos, com valor estimado em R$ 100 milhões, que vai cuidar da cobrança e do registro das viagens. O contrato é separado da concessão das linhas.
+
+O destaque técnico é o modelo de bilhetagem baseada em contas (ABT). O saldo deixa de ficar gravado no cartão e passa a ficar numa plataforma central, que calcula a tarifa, aplica as regras e compensa os valores entre as operadoras.
+
+📅 Entrega das propostas: 25/11
+📅 Disputa: 02/12, às 14h, na Celic
+⏳ Implantação: ainda sem data definida
+
+Para a engenharia de transporte, o tema vai além da catraca: integração tarifária, dados para planejar a rede e o equilíbrio entre antifraude (o edital prevê biometria facial) e proteção de dados.
+
+💬 Pagar com Pix ou cartão mudaria o seu deslocamento na RMPA? Conta pra gente nos comentários.
+
+Fontes: Governo do RS (RS Parcerias); Diário do Transporte (29/09/2026).
+
+#MobilidadeUrbana #RMPA #PortoAlegre #TransportePúblico #Bilhetagem #Pix #SistemasInteligentesDeTransporte #EngenhariaDeTransporte #CETMob #UFPel #UERGS
