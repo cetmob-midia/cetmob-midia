@@ -4,5 +4,6 @@
 |---|---|---|---|---|---|
 | post01 | 2026-11-23 | Carrossel | Licitação da bilhetagem eletrônica (ABT, Pix/cartão) dos ônibus metropolitanos da RMPA | Local | 18016256879993786 |
 | reel01 | 2026-11-23 | Reel | Tecnologia: ônibus autônomo de 12 m com passageiros em Munique (linha 178, projeto MINGA) | Internacional (EXTRA, fora da cadência) | 18030059018879520 |
+| reel02 | 2026-11-26 | Reel | Tecnologia: LiDAR + IA nos semáforos de Nashville (+100 cruzamentos, Ouster BlueCity, NDOT) | Internacional | 18191856325367091 |
 
 Linhas marcadas como **EXTRA** são publicações avulsas e não contam para a regra de duplicidade semanal das tarefas agendadas.
