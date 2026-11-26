@@ -1,0 +1,122 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: R; src: url('file:///usr/share/fonts/truetype/google-fonts/ofl/roboto/Roboto[wdth,wght].ttf'); font-weight: 100 900; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: #2c2793; }
+body { font-family: R, sans-serif; color: #fff; position: relative; }
+.bars { position: absolute; top: 0; right: 96px; display: flex; gap: 18px; align-items: flex-start; z-index: 5; }
+.bars i { display: block; width: 28px; border-radius: 0 0 8px 8px; }
+.scene { position: absolute; inset: 0; display: none; }
+.scene.on { display: block; }
+.k { position: absolute; left: 90px; top: 300px; font-size: 38px; font-weight: 700; letter-spacing: 4px; color: #fc8b3f; text-transform: uppercase; }
+.big { position: absolute; left: 90px; right: 90px; font-size: 118px; font-weight: 800; line-height: 1.02; letter-spacing: -2px; }
+.mid { position: absolute; left: 90px; right: 90px; font-size: 76px; font-weight: 800; line-height: 1.08; letter-spacing: -1px; }
+.txt { position: absolute; left: 90px; right: 110px; font-size: 48px; line-height: 1.32; color: #dcdaf3; }
+.o { color: #fc8b3f; }
+.b { color: #6fb3e3; }
+.foot { position: absolute; left: 90px; bottom: 380px; display: flex; align-items: center; gap: 22px; }
+.foot img { height: 70px; }
+/* linha */
+.line { position: absolute; left: 160px; top: 640px; width: 14px; background: #3488c1; border-radius: 7px; }
+.st { position: absolute; left: 132px; display: flex; align-items: center; gap: 40px; }
+.st i { width: 70px; height: 70px; border-radius: 50%; background: #2c2793; border: 12px solid #fff; flex: 0 0 70px; }
+.st span { font-size: 54px; font-weight: 700; }
+.chip { position: absolute; left: 90px; border: 5px solid #fc8b3f; border-radius: 26px; padding: 26px 36px; font-size: 44px; line-height: 1.3; }
+.prog { position: absolute; left: 90px; right: 90px; height: 64px; border-radius: 32px; background: rgba(255,255,255,.14); overflow: hidden; }
+.prog b { display: block; height: 100%; width: 0; background: #fc8b3f; }
+.quote { position: absolute; left: 90px; right: 90px; border-left: 14px solid #fc8b3f; padding-left: 44px; }
+.neq { font-size: 150px; font-weight: 800; color: #fc8b3f; }
+</style><style>
+.sens { position:absolute; left:90px; right:90px; display:flex; align-items:baseline; gap:34px; }
+.sens b { font-size:170px; font-weight:800; line-height:1; width:190px; text-align:right; }
+.sens span { font-size:58px; font-weight:700; }
+.tags { position:absolute; left:90px; right:90px; display:flex; flex-direction:column; gap:30px; }
+.tags span { border:4px solid #3488c1; border-radius:34px; padding:26px 38px; font-size:46px; font-weight:600; line-height:1.25; }
+.step { position:absolute; left:90px; right:90px; display:flex; gap:40px; align-items:flex-start; }
+.step > b { flex:0 0 120px; height:120px; border-radius:50%; background:#fc8b3f; color:#2c2793; font-size:72px; font-weight:800; display:flex; align-items:center; justify-content:center; }
+.step h4 { font-size:58px; font-weight:800; line-height:1.1; margin-bottom:12px; }
+.step p { font-size:42px; line-height:1.3; color:#dcdaf3; }
+</style></head>
+<body>
+<div class="bars"><i style="background:#fc8b3f;height:200px"></i><i style="background:#3488c1;height:150px"></i><i style="background:#fc8b3f;height:95px"></i></div>
+
+<div class="scene" id="s1">
+  <div class="k" id="s1k">Tecnologia no mundo · Nashville (EUA)</div>
+  <div class="big" id="s1a" style="top:420px">Semáforos que enxergam em 3D</div>
+  <div class="big o" id="s1b" style="top:930px">com laser e IA.</div>
+</div>
+
+<div class="scene" id="s2">
+  <div class="k">Anúncio de 17/11/2026</div>
+  <div class="mid" id="s2a" style="top:390px">+100 cruzamentos com sensores LiDAR</div>
+  <div class="txt" id="s2t" style="top:610px">A secretaria de transportes de Nashville (NDOT) amplia a rede, que chega a <b style="color:#fff">mais de 200 cruzamentos e trechos de via</b> contratados.</div>
+  <div class="chip" id="s2c" style="top:960px">Começou com um <b>piloto em 8 locais</b><br>no norte da cidade</div>
+  <div class="txt" id="s2v" style="top:1250px;font-size:40px;color:#b9b6e6">Sistema Ouster BlueCity · verba federal (programa SMART) · instalação sem data oficial</div>
+</div>
+
+<div class="scene" id="s3">
+  <div class="k">Como funciona</div>
+  <div class="step" id="s3a" style="top:410px"><b>1</b><div><h4>LiDAR no poste</h4><p>Pulsos de laser medem distâncias e geram uma nuvem de pontos 3D do cruzamento</p></div></div>
+  <div class="step" id="s3b" style="top:720px"><b>2</b><div><h4>IA ali mesmo, na borda</h4><p>Classifica e rastreia carros, bicicletas e pedestres e gera trajetórias anônimas</p></div></div>
+  <div class="step" id="s3c" style="top:960px"><b>3</b><div><h4>Controlador e central</h4><p>Os dados vão ao semáforo e à central de tráfego por uma API aberta</p></div></div>
+  <div class="txt" id="s3t" style="top:1330px;font-size:38px;color:#b9b6e6">Sensor novo (OS1 Max): detecção até ~150 m, segundo o fabricante</div>
+</div>
+
+<div class="scene" id="s4">
+  <div class="k">O que o semáforo faz com isso</div>
+  <div class="tags" id="s4g" style="top:420px"><span>estende a travessia se o pedestre ainda está na faixa</span><span>segura o vermelho quando um carro chega rápido demais</span><span>veta a conversão no vermelho se há pedestre</span><span>conta veículos e registra quase&#8209;acidentes</span></div>
+  <div class="txt" id="s4t" style="top:1260px;font-size:38px;color:#b9b6e6">Recursos descritos pelo fabricante</div>
+</div>
+
+<div class="scene" id="s5">
+  <div class="k">Novidade e privacidade</div>
+  <div class="mid" id="s5a" style="top:390px">O sensor novo também capta <span class="o">cor</span></div>
+  <div class="txt" id="s5t" style="top:600px">Assim, o sistema distingue o verde, o amarelo e o vermelho do próprio semáforo.</div>
+  <div class="chip" id="s5c" style="top:900px">Sem vídeo: o projeto trocou câmeras<br>por LiDAR após <b>preocupação da<br>comunidade com privacidade</b></div>
+  <div class="txt" id="s5v" style="top:1300px;font-size:40px">Pessoas viram formas 3D anônimas. Segundo o fabricante, a resolução não permite ler placas.</div>
+</div>
+
+<div class="scene" id="s6">
+  <div class="k">Lição de engenharia</div>
+  <div class="mid" id="s6a" style="top:400px">Detecção + algoritmo + controle</div>
+  <div class="txt" id="s6t" style="top:620px">O semáforo deixa de rodar só em tempo fixo e passa a responder a quem está no cruzamento, com prioridade para quem é mais vulnerável.</div>
+  <div class="txt" id="s6c" style="top:1010px;font-size:42px;color:#fff">No CETMob, isso é conteúdo de<br><b class="o">Sistemas Inteligentes de Transporte</b>,<br><b class="o">Engenharia de Tráfego</b> e<br><b class="o">Segurança Viária</b>.</div>
+</div>
+
+<div class="scene" id="s7">
+  <img id="s7logo" src="../assets/CETMob-logo-extenso-horizontal-BRANCO.svg" style="position:absolute;left:90px;top:620px;width:900px">
+  <div class="mid" id="s7h" style="top:1010px;font-size:60px">@ufpel_uergs.cetmob</div>
+  <div class="txt" id="s7t" style="top:1110px;font-size:40px">Mobilidade urbana, toda semana · Fontes na legenda</div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const cl = x => Math.max(0, Math.min(1, x));
+const eo = x => 1 - Math.pow(1 - cl(x), 3);
+function show(el, t, t0, dur = .45, dy = 50) {
+  const p = eo((t - t0) / dur);
+  el.style.opacity = p;
+  el.style.transform = `translateY(${(1 - p) * dy}px)`;
+}
+function sceneFade(D, t) { document.querySelector('.scene.on').style.opacity = cl((D - t) / .3); }
+const S = {
+  s1: { D: 4.2, f(t) { show($('s1k'), t, .1); show($('s1a'), t, .35); show($('s1b'), t, 1.6); } },
+  s2: { D: 5.4, f(t) { show($('s2a'), t, .15); show($('s2t'), t, .9); show($('s2c'), t, 2.1); show($('s2v'), t, 3.1); } },
+  s3: { D: 5.8, f(t) { show($('s3a'), t, .15); show($('s3b'), t, 1.3); show($('s3c'), t, 2.5); show($('s3t'), t, 3.7); } },
+  s4: { D: 5.4, f(t) {
+      [...$('s4g').children].forEach((c, i) => show(c, t, .15 + i * .75, .4, 30));
+      show($('s4t'), t, 3.4);
+    } },
+  s5: { D: 5.4, f(t) { show($('s5a'), t, .15); show($('s5t'), t, .9); show($('s5c'), t, 2.0); show($('s5v'), t, 3.1); } },
+  s6: { D: 5.2, f(t) { show($('s6a'), t, .15); show($('s6t'), t, 1.1); show($('s6c'), t, 2.6); } },
+  s7: { D: 3.0, f(t) { show($('s7logo'), t, .1); show($('s7h'), t, .6); show($('s7t'), t, 1.0); } },
+};
+window.render = (id, t) => {
+  document.querySelectorAll('.scene').forEach(s => s.classList.toggle('on', s.id === id));
+  S[id].f(t);
+  if (id !== 's7') sceneFade(S[id].D, t); else document.querySelector('.scene.on').style.opacity = 1;
+};
+window.SCENES = Object.fromEntries(Object.entries(S).map(([k, v]) => [k, v.D]));
+</script>
+</body></html>

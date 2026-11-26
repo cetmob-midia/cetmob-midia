@@ -1,0 +1,15 @@
+E se o semáforo pudesse ver quem está no cruzamento? 🚦🔦
+
+Em 17/11, Nashville (EUA) anunciou mais 100 cruzamentos com sensores LiDAR ligados ao controle semafórico. A rede da secretaria de transportes (NDOT) passa a ter mais de 200 cruzamentos e trechos de via contratados, com o sistema Ouster BlueCity. Tudo começou com um piloto em 8 locais no norte da cidade, financiado pelo programa federal SMART. Ainda não há data oficial para a instalação dos novos pontos.
+
+Como funciona: o LiDAR no poste dispara pulsos de laser e monta uma nuvem de pontos 3D do cruzamento. Um computador ali mesmo, na borda, usa IA para classificar e rastrear carros, bicicletas e pedestres e gera trajetórias anônimas. Esses dados vão ao controlador e à central de tráfego por uma API aberta. Segundo o fabricante, o sistema pode estender a travessia de quem ainda está na faixa, segurar o vermelho quando um carro chega rápido demais e vetar a conversão no vermelho quando há pedestre. O sensor novo detecta até cerca de 150 m e capta cor, o que permite distinguir as fases do próprio semáforo.
+
+Privacidade: o projeto original previa câmeras, mas trocou o vídeo pelo LiDAR depois de a comunidade manifestar preocupação. As pessoas viram formas 3D anônimas e, segundo o fabricante, a resolução não permite ler placas.
+
+Lição de engenharia: semáforo inteligente é detecção + algoritmo + controle. No CETMob, isso aparece em Sistemas Inteligentes de Transporte, Engenharia de Tráfego e Segurança Viária.
+
+💬 Em que cruzamento da sua cidade um semáforo que "enxerga" pedestres faria mais diferença?
+
+Fontes: Ouster, comunicado via Business Wire (17/11/2026); Axios (17/11/2026); WSMV (17/11/2026); USDOT, relatório de implementação do projeto LADDMS de Nashville (2025).
+
+#MobilidadeUrbana #TecnologiaNoTransporte #LiDAR #SemáforoInteligente #SistemasInteligentesDeTransporte #SegurançaViária #EngenhariaDeTráfego #Nashville #EngenhariaDeTransporte #CETMob #UFPel #UERGS
